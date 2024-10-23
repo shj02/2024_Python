@@ -1,0 +1,29 @@
+# week09_04.py
+
+s1 = set("abbbbc")
+print(s1)
+
+s2 = set([1,2,2,2,3,3,3,4,-1, 'a'])
+print(s2)
+
+# set -> 중복 X, 순서 X
+
+s3 = s1 & s2    # 교집합
+print(s3)
+
+s4 = s1 | s2    # 합집합
+print(s4)
+
+s5 = s1 - s2    # 차집합
+print(s5)
+
+s5.add('q')
+print(s5)
+
+# s6 = s5.add('q') -> None
+
+s5.update(['b', 10])
+print(s5)
+
+s5.remove('b')
+print(s5)
