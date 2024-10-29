@@ -17,12 +17,12 @@ print(s4)
 s5 = s1 - s2    # 차집합
 print(s5)
 
-s5.add('q')
+s5.add('q')    # 단일 요소 추가
 print(s5)
 
-# s6 = s5.add('q') -> None
+# s6 = s5.add('q') -> None : set의 add 메소드는 집합에 요소를 추가한 후 None을 반환함 -> s5에는 'q'가 추가되지만 s6에는 None이 저장됨
 
-s5.update(['b', 10])
+s5.update(['b', 10])  # 여러 요소 추가
 print(s5)
 
 s5.remove('b')
