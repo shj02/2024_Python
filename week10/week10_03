@@ -7,7 +7,7 @@ lines = f.readlines()
 # print(lines) : ['math, 10|kor, 20|eng, 30\n', 'math, 40|kor, 50|eng, 60\n']
 for line in lines:
     print(line.strip())
-
+ 
 # readline() : 한 줄씩 읽음
 #while True:
 #    line = f.readline()
