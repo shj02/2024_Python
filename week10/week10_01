@@ -1,7 +1,6 @@
 # week10_01.py
 
 mydir = "c:\\202444040\\sonhyeji.txt"   # txt 파일 생성
-# mkdir?
 
 # 자원 접근 (열기)
 # f = open(mydir, 'w')      w : 쓰기모드(무조건 새로)
