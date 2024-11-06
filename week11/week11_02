@@ -10,7 +10,7 @@ class Test:
         print(datetime.datetime.now()) # datetime모듈 안에 datetime클래스 안에 now()메소드가 있음
         
 # 1단계 : Test() 생성자 호출
-# 2단계 : __new__() 메소드 호출(인스턴스 생성)
+# 2단계 : __new__() 메소드 호출(인스턴스 생성), (self)쓰면 안됨
 # 3단계 : __init__() 메소드 호출(인스턴스 초기화)
 # 4단계 : 생성한 인스턴스 참조를 반환
 t = Test()  # 인스턴스 생성
