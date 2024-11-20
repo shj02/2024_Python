@@ -1,0 +1,7 @@
+# week13_B_01.py
+# id:202444040
+# name:son hyeji
+
+car_num = input("차량번호:")
+intime = input("입차시간:")
+outtime = input("출차시간:")
