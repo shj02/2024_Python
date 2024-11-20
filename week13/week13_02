@@ -18,14 +18,6 @@ print(dt1.hour, dt1.minute)
 print(dt1.second, dt1.microsecond)
 
 print(dt1. weekday()) # 월요일:0 ~
-print(type(dt1.date), dt1.date())
-print(type(dt1.time), dt1.time)
-
-'''
-2024 11 20
-10 10
-43 250927
-2
-<class 'builtin_function_or_method'> 2024-11-20
-<class 'builtin_function_or_method'> <built-in method time of datetime.datetime object at 0x0000023304183720>
-'''
+print(type(dt1.date), dt1.date()) # type : builtin_function_or_method
+print(type(dt1.time), dt1.time)   # type : builtin_function_or_method
+                                  # dt1.time : <built-in method time of datetime.datetime object at 0x7ea8d5ca1800>
