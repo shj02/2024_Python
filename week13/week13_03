@@ -19,9 +19,3 @@ d2 = dt.strptime(d1, dtformat) # p : parse / str(d1) -> datetime(d2)
 print(type(d), d) # type : datetime
 print(type(d1), d1) # type : str
 print(type(d2), d2) # type : datetime.datetime
-
-'''
-<class 'datetime.datetime'> 2024-11-20 10:29:53.999886
-<class 'str'> 2024-11-20 10:29:53.999886
-<class 'datetime.datetime'> 2024-11-20 10:29:53.999886
-'''
