@@ -14,11 +14,11 @@ dtformat = "%Y-%m-%d %H:%M:%S.%f"
 
 d = dt.now() # type(d) -> datetime.datetime
 d1 = dt.strftime(d, dtformat) # f : format / datetime -> str
-d2 = dt.strptime(d1, dtformat) # p : parse / str -> datetime
+d2 = dt.strptime(d1, dtformat) # p : parse / str(d1) -> datetime(d2)
 
-print(type(d), d)
-print(type(d1), d1)
-print(type(d2), d2)
+print(type(d), d) # type : datetime
+print(type(d1), d1) # type : str
+print(type(d2), d2) # type : datetime.datetime
 
 '''
 <class 'datetime.datetime'> 2024-11-20 10:29:53.999886
