@@ -1,0 +1,25 @@
+# week13_B_04.py
+# id:202444040
+# name:son hyeji
+
+from datetime import datetime as dt
+
+dtformat = "%Y-%m-%d %H:%M:%S"
+
+cars = []
+while True:
+    number = input("차량번호:").strip()
+    if not number:
+        break
+
+    intime = input("입차시간:")
+    intime = dt.strptime(intime, dtformat)
+    
+    outtime = input("출차시간:")
+    outtime = dt.strptime(outtime, dtformat)
+
+    car = {"num": number, "in": intime, "out": outtime}
+    cars.append(car)
+
+for car in cars:
+    print(car["num"], car["in"], car["out"])
