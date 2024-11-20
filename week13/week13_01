@@ -5,11 +5,12 @@
 import datetime
 # module : datetime
 # class : datetime
-# datetime.datetime
+# datetime.datetime으로 사용
 
 from datetime import datetime
 # datetime.datetime(x) -> module.class
 # datetime(o) -> class
+# datetime으로 사용
 
 from datetime import datetime as dt
 # datetime.datetime(x) -> module.class
