@@ -1,17 +1,14 @@
 # week12_10.py
-'''
-업로드 파일 확인하고 수정하기 
 file = "c:/abc/abc.txt"
 
 f = None
 try:
     f = open(file, "r")
-except: # 모든 Error 처리
-    print(file, "이 없어요")
-    f.close()
-    if f != None
-    f.close()
-    '''
+except:  # 모든 Error 처리
+    print(file, "이 없어요.")
+finally:
+    if f != None:
+        f.close()
 
 def test():
     raise NotImplementedError("구현해")
@@ -23,12 +20,12 @@ while True:
         result = dvd / dvs
         print(result)
         test()
-    except ValueError: # 프로그램을 끝내는 게 아님
+    except ValueError: # 숫자가 아닌 값을 입력했을 때
         print("정수만 넣으세요.")
-    except ZeroDivisionError as ze:
-        print(ze)   # division by zero
+    except ZeroDivisionError as ze: # 0으로 나눌 때
+        print(ze)   # division by zero 출력
         print("분모는 0 넣으면 안됩니다.")
-    except Exception as e: # 에러의 종류를 알려줌
+    except Exception as e: # ValueError와 ZeroDivisionError 외의 에러종류를 알려줌
         print(e)
     else:
         # try구문이 정상적으로 실행되면 실행
