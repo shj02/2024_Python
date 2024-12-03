@@ -41,8 +41,6 @@ class Rectangle2:
 
 r = Rectangle2(Point(1,1), 10, 20)
 
-# 숙제 있음
-
 class Rectangle3:
     def __init__(self, sp=Point(), ep=Point()):
         self.startpoint = sp
