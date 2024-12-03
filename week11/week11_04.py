@@ -22,8 +22,3 @@ for i in range(3):  # type(i) == int
 
 for i in students: # type(i) == Student
     print(i.name)
-
-# 연습해보기
-# 1번 동일한 학번이 들어왔을 때는 어떻게 할지?
-# 2번 students를 dict로 만들어서 실행해보기(dict의 key는 학번이 합당할 것으로 보임)
-# 3번 while문으로 바꿔서 본인이 원하는 만큼만 반복하기
